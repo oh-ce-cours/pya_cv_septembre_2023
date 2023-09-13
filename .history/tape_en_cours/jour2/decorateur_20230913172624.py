@@ -5,7 +5,7 @@ def ecrit_avant_apres(f):
         print("apres l'appel")
     return wrapper 
 
-@ecrit_avant_apres
+
 def parle():
     print("salut")
 
