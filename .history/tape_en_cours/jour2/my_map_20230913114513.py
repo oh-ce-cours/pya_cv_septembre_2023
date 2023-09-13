@@ -10,6 +10,9 @@ def multiplication(a, b, c):
     return a * b * c
 
 
+def multiplication(valeurs):
+    return valeurs[0] * valeurs[1] * valeurs[2]
+
 print(my_map(multiplication, 
        [1, 2, 3], 
        [4, 5, 6], 
