@@ -18,3 +18,13 @@ print(my_map(multiplication,
 # multiplication(1, 4, 7)
 # multiplication(2, 5, 8)
 # multiplication(3, 6, 9)
+
+
+
+def my_filter(f, iterator):
+    res = []
+    for value in iterator:
+        f_result = f(value)
+        if f_result is True:
+            res.append(value)
+    return res 
