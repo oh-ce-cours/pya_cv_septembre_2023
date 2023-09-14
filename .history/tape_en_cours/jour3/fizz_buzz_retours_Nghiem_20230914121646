@@ -14,5 +14,5 @@ def handle_number(nb):
 for number in range(1,101):
     handle_number(number)
 
-# values = map(handle_number, range(1,101))
-# print("\n".join(list(values)))
+values = map(handle_number, range(1,101))
+print("\n".join(list(values)))
