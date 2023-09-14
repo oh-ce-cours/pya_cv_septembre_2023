@@ -3,7 +3,6 @@ from functools import wraps
 # Décorateur pour les ingrédients
 def ingredient_haut(param):
     def decorator(f):
-        @wraps(f)
         def wrapper(*args, **kwargs):
             print(f"{param}") 
             sortie = f(*args, **kwargs)
