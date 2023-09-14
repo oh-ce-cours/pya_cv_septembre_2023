@@ -5,7 +5,7 @@ def handle_number(number):
     if restdiv3 == 0 and restdiv5 == 0:
         return f"{number} fizzbuzz"
     elif restdiv3 == 0:
-        return f"{number} fizzz"
+        return f"{number} fizz"
     elif restdiv5 == 0:
         return f"{number} buzz"
     else:
