@@ -40,4 +40,4 @@ def sandwich(viande):
 
 # Créez un sandwich en utilisant le décorateur
 sandwich("steak")
-print(help(sandwich))
+help(sandwich)
