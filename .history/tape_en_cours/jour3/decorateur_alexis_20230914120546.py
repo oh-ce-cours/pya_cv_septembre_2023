@@ -45,3 +45,4 @@ def sandwich(viande):
 
 # Créez un sandwich en utilisant le décorateur
 sandwich("steak")
+print(sandwich.__name__)
