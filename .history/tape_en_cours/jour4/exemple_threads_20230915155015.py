@@ -1,6 +1,5 @@
 from threading import Thread 
 import time
-
 # Define a function for the thread
 def print_time(threadName, delay): 
     count = 0
