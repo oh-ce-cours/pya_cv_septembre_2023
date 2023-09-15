@@ -8,7 +8,6 @@ def f(x):
     global y 
     print(x, os.getpid(), y)
     time.sleep(10)
-    y = 2
     return x*x
 
 if __name__ == '__main__':
